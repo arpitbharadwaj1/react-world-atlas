@@ -1,5 +1,5 @@
-import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -16,17 +16,24 @@ const HeroSection = () => {
               Whether you're planning a trip, studying geography, or just
               curious about the world, our platform has you covered.
             </p>
-            <button className="btn btn-darken btn-inline bg-white-box">
-              Start Exploring <FaLongArrowAltRight />
-            </button>
+
+            <NavLink to="/country">
+              <button className="btn btn-darken btn-inline bg-white-box">
+                Start Exploring <FaLongArrowAltRight />
+              </button>
+            </NavLink>
           </div>
           <div className="hero-image">
-            <img src="/images/world.png" alt="world-banner-image" className="banner-image"/>
+            <img
+              src="/images/world.png"
+              alt="world-banner-image"
+              className="banner-image"
+            />
           </div>
         </div>
       </div>
     </main>
   );
-}
+};
 
-export default HeroSection
+export default HeroSection;
