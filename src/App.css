@@ -91,7 +91,6 @@ button {
 
 .grid-three-cols {
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 25rem;
 }
 
 .grid-four-cols {
