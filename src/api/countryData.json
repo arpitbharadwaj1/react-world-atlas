@@ -7,6 +7,13 @@
     "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
   },
   {
+    "id": 9,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1407563842,
+    "interestingFact": "India is the world's largest democracy and the seventh-largest country by land area."
+  },
+  {
     "id": 2,
     "countryName": "Nepal",
     "capital": "Kathmandu",

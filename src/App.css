@@ -91,6 +91,7 @@ button {
 
 .grid-three-cols {
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 25rem;
 }
 
 .grid-four-cols {
@@ -237,6 +238,7 @@ nav ul {
   color: #fff;
   font-weight: 600;
   line-height: 60px;
+  margin-top: 40px;
 }
 
 .card {
@@ -460,6 +462,8 @@ country Card
     font-family: "urbanist";
     font-size: 1.55rem;
     font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 1rem;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
