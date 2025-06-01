@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Noida, Uttar Pradesh, India"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "8439867177"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "arpitbharadwaj572@gmail.com"
+  }
+]

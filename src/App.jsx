@@ -7,6 +7,7 @@ import ErrorPage from "./pages/ErrorPage";
 const About = React.lazy(() => import("./pages/About"));
 const Country = React.lazy(() => import("./pages/Country"));
 const Contact = React.lazy(() => import("./pages/Contact"));
+const CountryDetails = React.lazy(() => import("./components/Layout/CountryDetails"));
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,15 @@ const router = createBrowserRouter([
             <Country />
           </Suspense>
         ),
+      },
+      {
+        path: "/country/:id",
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <CountryDetails />
+          </Suspense>
+        ),
+
       },
       {
         path: "/contact",
